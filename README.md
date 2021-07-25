@@ -1,10 +1,10 @@
 # Lunamaria 
 
-currently working with the designs using css
-homepage 
-about
-product
-projects
+currently working with the designs using css 
+*homepage 
+*about
+*product
+*projects
 
 
 future goals of the wesbite:
