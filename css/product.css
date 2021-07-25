@@ -35,6 +35,7 @@ to {
   opacity: 1;
  }
 }
+
 .product-container > *:first-child {
   display: grid;
   grid-column: 1 / span 3;
