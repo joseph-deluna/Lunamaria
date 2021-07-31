@@ -2,9 +2,9 @@
     box-sizing: border-box;
   }
 
-  body {
+  /* body {
     background: #e2dcde;
-  }
+  } */
   
   .container {
     position: relative;
@@ -34,6 +34,11 @@
 to {
   opacity: 1;
  }
+}
+
+.product-container p {
+  background: white;
+  font-weight: bolder;
 }
 
 .product-container > *:first-child {

@@ -72,6 +72,14 @@ a {
     color: #C9D8B6;
 }
 
+.navbar .logo a:hover{
+    transition: ease-out 0.3s;
+    background: #3d2b3d;
+    margin-left: 15px;
+
+}
+
+
 .navbar ul {
     display: flex;
 }
@@ -124,9 +132,12 @@ a {
 }
 
 #desc-btn:hover {
-    padding: 11px 17px;
-    transition: ease-out 0.4s;
-    color: yellow;
+    transition: ease-out 0.3s;
+    background: #3d2b3d;
+    text-shadow: 0px 4px 3px rgba(155, 131, 23, 0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    font-weight: bolder;
 }
 
 .heading-desc h1 {
@@ -184,6 +195,7 @@ a {
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
 }
+
 
 .deals img {
     animation: dealsIn 2s;
@@ -334,7 +346,7 @@ a {
 .about-container {
     margin: 80px 100px;
     box-shadow: 0 0 60px black;
-    background: #FFF5EB;
+    background: #493657;
 }
 
 #about img {
@@ -344,9 +356,9 @@ a {
 
 .about-description {
     line-height: 2.5;
-    color: #444141;
+    color: #fff;
     font-size: 1.3rem;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
 
@@ -381,6 +393,7 @@ a {
 
 .blog {
     text-align: center;
+    font-family: 'Raleway', sans-serif;
     padding-top: 100px;
     padding-bottom: 20px;
     background: url("../img/sofa1.png") center center/cover no-repeat;
@@ -389,11 +402,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .blog h1 {
     color: #E8F0F2;
-    background: rgba(3, 50, 82, 0.6);
+    background: rgba(15, 21, 26, 0.863);
     padding: 1rem 1rem;
 }
 
@@ -427,6 +441,7 @@ a {
 
 .projects-container h1{
     color: #3d2b3d;
+    font-size: 2.5rem;
 } 
 
 .projects-container h3 {
@@ -452,13 +467,22 @@ a {
 
 @keyframes project {
     from {
-        opacity: 0.4;
         transform: translateX(-200px);
     }
     to {
-        opacity: 1;
         transform: translateX(0)
     }
+}
+
+#projects .custom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 20px;
+}
+
+.custom img {
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 24) 0px 3px 8px;
 }
 
 /* #projects .project-imgs > *:first-child {
