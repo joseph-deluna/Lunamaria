@@ -9,8 +9,9 @@ currently working with the designs using css
 
 future goals of the wesbite:
 use React
+use Sass
 cleaner code
 blog integration
 SEO optimization
-product database
+product database - mongoDB
 more lively homepage
